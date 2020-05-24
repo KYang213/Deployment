@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ppconfig name="Init" language="English">
+  <audioitem type="StaticAudio" language="English">
+    <audioInfo>200101</audioInfo>
+  </audioitem>
+  <audioitem type="Date" language="English">
+    <audioInfo>{session.PP2001.date}|MMDD</audioInfo>
+  </audioitem>
+  <audioitem type="StaticAudio" language="English">
+    <audioInfo>200102</audioInfo>
+  </audioitem>
+  <audioitem type="Number" language="English">
+    <audioInfo>{session.PP2001.acct_number}|digit_by_digit</audioInfo>
+  </audioitem>
+  <audioitem type="StaticAudio" language="English">
+    <audioInfo>200103</audioInfo>
+  </audioitem>
+  <audioitem type="Currency" language="English">
+    <audioInfo>{session.PP2001.account_balance}</audioInfo>
+  </audioitem>
+</ppconfig>

@@ -1,0 +1,3 @@
+﻿310001:(Spanish)Alright, Say or enter the amount you'd like to pay. For example, fifty-five dollars and fifty cents would be entered as five five star five zero.
+310010:(Spanish)Say or enter the amount you'd like to pay. For example, fifty-five dollars and fifty cents would be entered as five five star five zero.
+310011:(Spanish)Say or enter the amount of your payment, including cents...for example one hundred twenty- five dollars and fifty cents would be entered as one two five star five zero.</tts>

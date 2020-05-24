@@ -1,0 +1,22 @@
+﻿100001:Welcome to run this test application. 
+100002:Please press 1 for English, or 2 for Spanish.
+
+100101: Please say or enter your 2 to 5 digits account number.
+100112: Please say or use your phone key pad to enter your 2 to 5 digits account number.
+
+100201: Please say or enter your 2 to 5 digits account pin.
+100212: Please say or use your phone key pad to enter your 2 to 5 digits account pin.
+
+100301: Do you want to hear your account balance, or your next appointment information?
+100302: Do you want to hear your account balance?
+
+900001: You could hang up the call here, say REPEAT to hear the information again, say MAIN MENU to restart, or say REPRESENTATIVE to talk to an agent. 
+900011: Please press 1 to repeat the information you just heard, press 2 to listen to the MAIN MENU, or press 3 to talk to an agent for furthur assistant.
+
+200101: as of
+200102: your account
+200103: has
+
+300101: you have an appointment with 
+300102: at
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ppconfig name="Init" language="English">
+  <audioitem type="StaticAudio" language="English">
+    <audioInfo>300101</audioInfo>
+  </audioitem>
+  <audioitem type="TTS" language="English">
+    <audioInfo>{name}</audioInfo>
+  </audioitem>
+  <audioitem type="StaticAudio" language="English">
+    <audioInfo>300101</audioInfo>
+  </audioitem>
+  <audioitem type="DateTime" language="English">
+    <audioInfo>{appt_datetime}|MMDDYYYY</audioInfo>
+  </audioitem>  
+</ppconfig>

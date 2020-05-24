@@ -1,0 +1,1 @@
+﻿310010:(Replace Test)Say or enter the amount you'd like to pay. For example, fifty-five dollars and fifty cents would be entered as five five star five zero.

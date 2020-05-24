@@ -1,0 +1,18 @@
+﻿@model IEnumerable<VXMLCoreLibrary.Data.VXMLModels.StaticAudio>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <div> There are @Model.Count() static audios. </div>
+</div>
+
+<ul>
+    @foreach (var staticAdudio in Model)
+    {
+        <li>
+            @staticAdudio.Id
+        </li>
+    }
+</ul>

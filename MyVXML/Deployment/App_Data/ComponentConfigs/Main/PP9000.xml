@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ppconfig name="Init" language="English">
+  <audioitem type="StaticAudio" language="English">
+    <audioInfo>900000</audioInfo>
+  </audioitem>
+</ppconfig>

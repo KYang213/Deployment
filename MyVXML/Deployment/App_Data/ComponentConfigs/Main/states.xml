@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ivrstates>
+  <state Name="endComponent" Type="Hangup" />
+  <state Name="routeCall" Type="RouteToAgent" />
+  <state Name="DM1000" Type="Dialog">
+    <exitstate>default:DM1001</exitstate>
+  </state>
+  <state Name="DM1001" Type="Dialog">
+    <exitstate>default:DM1002</exitstate>
+  </state>
+  <state Name="DM1002" Type="Dialog">
+    <exitstate>default:WS1002</exitstate>
+  </state>
+  <state Name="WS1002" Type="Action" ClassName="VXMLApp.Date.MidTiers.Main.WS1002_GetAccountInfo">
+    <exitstate>default:DM1003</exitstate>
+  </state>
+  <state Name="DM1003" Type="Dialog">
+    <exitstate>account_balance:PP2001</exitstate>
+    <exitstate>appointment:PP3001</exitstate>
+  </state>
+  <state Name="PP2001" Type="PlayPrompt">
+    <exitstate>default:DM9000</exitstate>
+  </state>
+  <state Name="PP3001" Type="PlayPrompt">
+    <exitstate>default:DM9000</exitstate>
+  </state>
+  <state Name="DM9000" Type="Dialog">
+    <exitstate>hangup:endComponent</exitstate>
+    <exitstate>repeat:DS9001</exitstate>
+    <exitstate>main_menu:DM1003</exitstate>
+    <exitstate>representative:routeCall</exitstate>
+  </state>
+  <state Name="DS9001" Type="Decision" ClassName="VXMLApp.Date.MidTiers.Main.DS9001_Check">
+    <exitstate>account_balance:PP2001</exitstate>
+    <exitstate>appointment:PP3001</exitstate>
+  </state>
+  <state Name="PP9000" Type="PlayPrompt">
+    <exitstate>default:routeCall</exitstate>
+  </state>
+</ivrstates>

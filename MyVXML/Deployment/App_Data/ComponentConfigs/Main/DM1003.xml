@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dmconfig>
+  <audiogroups>
+    <audiogroup name="Init" language="English">
+      <audioitem type="StaticAudio" language="English">
+        <audioInfo>100301</audioInfo>
+      </audioitem>
+    </audiogroup>
+    <audiogroup name="Error01" language="English">
+      <audioitem type="StaticAudio" language="English">
+        <audioInfo>000001</audioInfo>
+      </audioitem>
+      <audioitem type="StaticAudio" language="English">
+        <audioInfo>100301</audioInfo>
+      </audioitem>
+    </audiogroup>
+    <audiogroup name="Error02" language="English" order="1">
+      <audioitem type="StaticAudio" language="English">
+        <audioInfo>000002</audioInfo>
+      </audioitem>      
+      <audioitem type="StaticAudio" language="English">
+        <audioInfo>100301</audioInfo>
+      </audioitem>
+    </audiogroup>    
+  </audiogroups>
+  <settings>
+    <setting name="ConfirmEnabled" value="False" />
+  </settings>
+</dmconfig>
